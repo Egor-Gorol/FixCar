@@ -28,7 +28,7 @@ async def home(request: Request, error: str | None = None):
 
 @router.get("/auth/register")
 async def home(request: Request, error: str | None = None):
-    return templates.TemplateResponse("auth.html", {"request": request, "error": error})
+    return templates.TemplateResponse("registr.html", {"request": request, "error": error})
 
 
 @router.get("/auth/login")
