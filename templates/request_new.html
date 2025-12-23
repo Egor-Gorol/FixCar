@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Нова заявка</title>
-  <!-- Bootstrap 5 CDN -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -17,29 +17,29 @@
         </div>
 
         <div class="card-body">
-          <!-- ВАЖЛИВО: enctype для файлів -->
+        
           <form enctype="multipart/form-data">
             
-            <!-- Назва заявки -->
+         
             <div class="mb-3">
               <label for="title" class="form-label">Назва заявки</label>
               <input type="text" class="form-control" id="title" placeholder="Введіть назву">
             </div>
 
-            <!-- Опис -->
+     
             <div class="mb-3">
               <label for="description" class="form-label">Опис</label>
               <textarea class="form-control" id="description" rows="4" placeholder="Опишіть заявку"></textarea>
             </div>
 
-            <!-- Додавання фото -->
+      
             <div class="mb-3">
               <label for="photo" class="form-label">Додати фото</label>
               <input class="form-control" type="file" id="photo" accept="image/*">
               <div class="form-text">Можна завантажити одне фото (jpg, png)</div>
             </div>
 
-            <!-- Час виконання -->
+           
             <div class="mb-3">
               <label for="deadline" class="form-label">
                 Бажаний час виконання
@@ -47,7 +47,7 @@
               <input type="datetime-local" class="form-control" id="deadline">
             </div>
 
-            <!-- Кнопки -->
+          
             <div class="d-flex justify-content-end">
               <button type="reset" class="btn btn-secondary me-2">Очистити</button>
               <button type="submit" class="btn btn-primary">Створити заявку</button>
