@@ -43,14 +43,15 @@ alembic upgrade head
 
 ### Запуск доданку
 1. Клонувати репозиторій
-[text](https://github.com/Egor-Gorol/FixCar.git)
-
+```
+https://github.com/Egor-Gorol/FixCar.git
+```
 2. Створити та активувати віртуальне середовище:
-[text]
+```
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
 venv\Scripts\activate     # Windows
-
+```
 3. Запуск проекту 
 ```bash
 python3 main.py 
